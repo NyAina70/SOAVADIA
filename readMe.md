@@ -13,7 +13,7 @@ des clients et payements; mais aussi la gestion des staffs et maintenances des v
     <li>Executer le fichier soavadia.sql</li>
 </ul>
 <img src="/img_of_dataBase/execution_cmd.PNG">
-<p>Pour creer et se connecter à la data-base SOAVADIA</p>
+<p>Pour creer et se connecter à la base-de-donee SOAVADIA</p>
 
 <ul>
 <h3>Insertion des données dans SOAVADIA</h3>
