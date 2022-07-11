@@ -1045,3 +1045,11 @@ insert into chauffeur (id_chauffeur, nom_chauffeur, prenom_chauffeur, telephone_
 insert into chauffeur (id_chauffeur, nom_chauffeur, prenom_chauffeur, telephone_chauffeur, salaire_chauffeur, cin_chauffeur) values (18, 'Sam', 'Lashford', '140-671-1047', 283160, '955213833-7');
 insert into chauffeur (id_chauffeur, nom_chauffeur, prenom_chauffeur, telephone_chauffeur, salaire_chauffeur, cin_chauffeur) values (19, 'Griffie', 'Pina', '346-657-6977', 40858, '766380875-4');
 insert into chauffeur (id_chauffeur, nom_chauffeur, prenom_chauffeur, telephone_chauffeur, salaire_chauffeur, cin_chauffeur) values (20, 'Conrado', 'Lemanu', '240-168-3791', 40639, '084956061-6');
+
+--insertion of a country
+insert into ville (nom_ville) values (Antanarivo);
+insert into ville (nom_ville) values (Toamasina);
+insert into ville (nom_ville) values (Majanga);
+insert into ville (nom_ville) values (Antsirabe);
+insert into ville (nom_ville) values (Diego);
+insert into ville (nom_ville) values (Tolear);
