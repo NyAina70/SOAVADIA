@@ -13,13 +13,13 @@ CREATE TABLE receptionniste(
 );
 
 CREATE TABLE chauffeur(
-    id_chaffeur serial primary key, 
-    nom_chaffeur varchar(100) not null,
-    prenom_chaffeur varchar(100),
-    adresse_chaffeur text, 
-    cin_chaffeur varchar(15) unique,
-    telephone_chaffeur varchar(15) not null,
-    salaire_chaffeur int check(salaire_chaffeur >= 0)
+    id_chauffeur serial primary key, 
+    nom_chauffeur varchar(100) not null,
+    prenom_chauffeur varchar(100),
+    adresse_chauffeur text, 
+    cin_chauffeur varchar(15) unique,
+    telephone_chauffeur varchar(15) not null,
+    salaire_chauffeur int check(salaire_chauffeur >= 0)
 );
 
 CREATE TABLE type_payement(
@@ -49,7 +49,7 @@ CREATE TABLE ville(
 CREATE TABLE trajet(
     id_trajet serial primary key,
     frais_de_base int not null, 
-    prix_carburant int, -- this is questionnable
+    prix_carburant int, 
     id_ville_depart int references ville(id_ville) not null,
     id_ville_arrivee int references ville(id_ville) not null
 );
@@ -89,7 +89,7 @@ CREATE TABLE voyage(
     id_trajet int references trajet(id_trajet) not null,
     id_saison int references saison(id_saison),
     id_voiture int references voiture(id_voiture),
-    id_chauffeur int references chaffeur(id_chaffeur)
+    id_chauffeur int references chauffeur(id_chauffeur)
 );
 
 CREATE TABLE reservation(
