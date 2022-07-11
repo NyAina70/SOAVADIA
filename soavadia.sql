@@ -1,4 +1,3 @@
-DROP DATABASE IF EXISTS soavadia;
 CREATE DATABASE soavadia; 
 
 \c soavadia;
@@ -50,7 +49,7 @@ CREATE TABLE ville(
 CREATE TABLE trajet(
     id_trajet serial primary key,
     frais_de_base int not null, 
-    prix_carburant int, -- this is questionnable
+    prix_carburant int, 
     id_ville_depart int references ville(id_ville) not null,
     id_ville_arrivee int references ville(id_ville) not null
 );
@@ -63,9 +62,8 @@ CREATE TABLE saison(
 
 CREATE TABLE offre(
     id_offre serial primary key,
-    label_offre varchar(20) not null,
     nombre_place int check(nombre_place > 0),
-    coef_offre float check(coef_offre > 0)
+    coef_offre int check(coef_offre > 0)
 );
 
 CREATE TABLE maintenance(
