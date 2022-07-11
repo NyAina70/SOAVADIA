@@ -31,7 +31,7 @@ CREATE TABLE client(
     id_client serial primary key,
     nom varchar(100) not null,
     prenom varchar(100),
-    telephopne varchar(15),
+    telephone varchar(15),
     cin varchar(15) unique
 );
 
