@@ -8,10 +8,12 @@ des clients et payements; mais aussi la gestion des staffs et maintenances des v
 <img src="/img_of_dataBase/Soavadia.PNG">
 <h2>Instruction d'utilisation</h2>
 <ul>
+    <li>Commencer à telecharger le repo git</li>
     <li>Pour commencer entrer dans SQL Shell</li>
     <li>Executer le fichier soavadia.sql</li>
 </ul>
-<img src="/img_of_dataBase/execution_cmd.PNG">
+`\i chemin_absolue/soavadia.sql`
+<h3>exp: </h3> `\i E:/DONNEE2/soavadia_g3/soavadia.sql`
 <p>Pour creer et se connecter à la data-base SOAVADIA</p>
 
 <ul>
