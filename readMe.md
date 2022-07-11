@@ -16,7 +16,7 @@ des clients et payements; mais aussi la gestion des staffs et maintenances des v
 <p>Pour creer et se connecter à la data-base SOAVADIA</p>
 
 <ul>
-    <li><h3>Insertion des données dans SOAVADIA</h3></li>
+<h3>Insertion des données dans SOAVADIA</h3>
     <li>Entrer dans le dossier insert_table</li>
     <li>Puis executer le fichier insert.sql dans SQL Shell</li>
 </ul>
