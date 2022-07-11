@@ -1,4 +1,4 @@
-<h1>Soavadiha</h1>
+<h1>Soavadiha :bus:</h1>
 ###Ce projet est basé sur Postgresql :elephant: ###
 <h2>Presentation</h2>
 <p>Soavadiha est un projet sur l'architecture de donnée d'une agence de transport. Elle consiste
